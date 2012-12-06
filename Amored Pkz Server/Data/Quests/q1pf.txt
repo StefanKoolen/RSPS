@@ -1,0 +1,23 @@
+Recipe for Disaster
+
+@str@ I have gathered all the materials required.
+@str@  @dre@1x Bucket of water
+@str@  @dre@1x Pot of flour
+@str@  @dre@50x Purple sweets
+@str@  @dre@20x Body rune
+@str@  @dre@20x Water rune
+@str@  @dre@20x Earth rune
+@str@  @dre@Good food
+@str@  @dre@Good armor
+@str@ I need to speak to the Gypsie she will know what
+@str@ to do next.
+@str@ The gypsie told me to talk to the Cook.
+@str@ I have talked to Cook, he suggest I make a cake.
+@str@ I baked the cake.
+@str@ Defeat the Culinomancer
+
+@gre@Quest complete!
+
+@blu@ Rewards
+Further advancement in the Culinomancor Chest
+located at home.

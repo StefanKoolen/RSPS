@@ -1,0 +1,11 @@
+@yel@   Where Am I?                        Quest
+
+@red@ I just talked to Hans.
+@red@ He said i should fish...
+@red@ I wont argue. So lets fish.
+@red@ Then I need to cook it. ANd talk to hans afterwards.
+
+@yel@@str@ Hans talked to me.
+@yel@@str@ Found rope.
+@yel@@str@ Talked to Hans.
+

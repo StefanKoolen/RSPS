@@ -1,0 +1,9 @@
+@yel@   Where Am I?                        Quest
+
+@red@ I found the rope. I shouldnt drop it or lose it.
+@red@ I may not get another one.
+@red@ I should go back to hans.
+
+@yel@@str@ Hans Talked to me.
+@yel@@str@ Found rope.
+

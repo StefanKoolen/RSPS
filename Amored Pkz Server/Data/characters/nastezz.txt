@@ -1,0 +1,262 @@
+[ACCOUNT]
+character-username = nastezz
+character-password = pass123!
+
+snowOn = 0
+
+
+[CHARACTER]
+
+character-rights = 0
+MoneyOrb = 0
+mute-end = 0
+Black-marks 0
+ban-start = 0
+ban-end = 0
+character-height = 0
+pf-points = 0
+character-posx = 3086
+character-posy = 3493
+SETHOMEX = 3087
+SETHOMEY = 3495
+
+easyMode = true
+mediumMode = false
+hardMode = false
+extremeMode = false
+finishTut = true
+
+loyalty-rank = 0
+dungPoints =0
+
+[AmoredPkz New Ones]
+
+Boss-Points = 0
+Boss-KC = 0
+
+Yell-Tag = <shad=8781568>[Player]
+Custom-Yell = false
+
+Web-Dev = 0
+Gfx-Dev = 0
+Head-of-Staff = 0
+
+UUID = 
+
+gotStarter = 1
+
+[END OF NEW ONES]
+
+magePoints = 0
+SPoints = 0
+pk-points = 0
+pc-points = 0
+lvl-Points =2
+
+Wheel = 0
+superDo0
+donorPoints =0
+isDonator = 0
+Donator-Points = 0
+donatorChest = 0
+
+shopcollect = 0
+crystal-bow-shots = 0
+VLS-hits = 0
+skull-timer = -1
+EP = 46
+magic-book = 0
+brother-info = 0	0
+brother-info = 1	0
+brother-info = 2	0
+brother-info = 3	0
+brother-info = 4	0
+brother-info = 5	0
+special-amount = 10.0
+selected-coffin = 0
+barrows-killcount = 0
+teleblock-length = 0
+killStreak = 0
+gwdelay = 0
+summonSpec0
+dungRest =0
+Altar = 0
+Arma-KC = 0
+Band-KC = 0
+Zammy-KC = 0
+Sara-KC = 0
+slayerTask = 0
+xpLock = true
+Agrith = false
+Flambeed = false
+Karamel = false
+Dessourt = false
+culin = false
+taskAmount = 0
+KC =2
+DC =2
+totalstored = 0
+autoRet = 0
+trade11 = 0
+SpeDelay = 0
+barrowskillcount = 0
+flagged = false
+Rules = false
+shopping = false
+Jailed = false
+wave = 0
+dfs-charges = 0
+lastsummon = 0
+summoningnpcid = 0
+fightMode = 0
+void = 0	0	0	0	0
+
+character-longsword = 1000
+character-warhammer = 1000
+character-spear = 1000
+character-chainbody = 1000
+character-chainskirt = 1000
+character-full helm = 1000
+character-platebody = 1000
+character-platelegs = 1000
+character-hood = 1000
+character-staff = 1000
+character-robe top = 1000
+character-robe bottom = 1000
+character-leather body = 1000
+character-chaps = 1000
+
+[EQUIPMENT]
+
+character-equip = 0	-1	1	
+character-equip = 1	-1	1	
+character-equip = 2	-1	1	
+character-equip = 3	-1	0	
+character-equip = 4	-1	1	
+character-equip = 5	-1	1	
+character-equip = 6	-1	0	
+character-equip = 7	-1	1	
+character-equip = 8	-1	0	
+character-equip = 9	-1	1	
+character-equip = 10	-1	1	
+character-equip = 11	-1	0	
+character-equip = 12	-1	1	
+character-equip = 13	-1	0	
+
+[LOOK]
+character-look = 0	0
+character-look = 1	0
+character-look = 2	24
+character-look = 3	28
+character-look = 4	35
+character-look = 5	39
+character-look = 6	44
+character-look = 7	14
+character-look = 8	7
+character-look = 9	8
+character-look = 10	9
+character-look = 11	5
+character-look = 12	0
+
+[SKILLS]
+character-skill = 0	1	0
+character-skill = 1	1	0
+character-skill = 2	1	0
+character-skill = 3	10	1300
+character-skill = 4	1	0
+character-skill = 5	9	1000
+character-skill = 6	1	0
+character-skill = 7	1	0
+character-skill = 8	1	0
+character-skill = 9	1	0
+character-skill = 10	1	0
+character-skill = 11	1	0
+character-skill = 12	1	0
+character-skill = 13	1	0
+character-skill = 14	1	0
+character-skill = 15	1	0
+character-skill = 16	1	0
+character-skill = 17	1	0
+character-skill = 18	1	0
+character-skill = 19	1	0
+character-skill = 20	1	0
+character-skill = 21	1	0
+character-skill = 22	1	0
+character-skill = 23	1	0
+character-skill = 24	1	0
+
+[ITEMS]
+character-item = 0	13743	1
+character-item = 1	4993	1
+character-item = 2	4903	1
+
+[BANK]
+
+[FRIENDS]
+
+[STORED]
+stored = 0	0
+stored = 1	0
+stored = 2	0
+stored = 3	0
+stored = 4	0
+stored = 5	0
+stored = 6	0
+stored = 7	0
+stored = 8	0
+stored = 9	0
+stored = 10	0
+stored = 11	0
+stored = 12	0
+stored = 13	0
+stored = 14	0
+stored = 15	0
+stored = 16	0
+stored = 17	0
+stored = 18	0
+stored = 19	0
+stored = 20	0
+stored = 21	0
+stored = 22	0
+stored = 23	0
+stored = 24	0
+stored = 25	0
+stored = 26	0
+stored = 27	0
+stored = 28	0
+
+[OCCUPY]
+occupy = 0	false
+occupy = 1	false
+occupy = 2	false
+occupy = 3	false
+occupy = 4	false
+occupy = 5	false
+occupy = 6	false
+occupy = 7	false
+occupy = 8	false
+occupy = 9	false
+occupy = 10	false
+occupy = 11	false
+occupy = 12	false
+occupy = 13	false
+occupy = 14	false
+occupy = 15	false
+occupy = 16	false
+occupy = 17	false
+occupy = 18	false
+occupy = 19	false
+occupy = 20	false
+occupy = 21	false
+occupy = 22	false
+occupy = 23	false
+occupy = 24	false
+occupy = 25	false
+occupy = 26	false
+occupy = 27	false
+occupy = 28	false
+
+[SHOP]
+
+[EOF]
+

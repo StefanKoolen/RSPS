@@ -1,0 +1,13 @@
+@yel@   Where Am I?                        Quest
+
+@red@ Now Hans says I should leanr how to fight.
+@red@ So This wont happen again.
+@red@ This is a good Idea. He told me to go
+@red@ to the other side of the dock and go up the ladder.
+@red@ Then bury bones (anywhere), then talk to hans again.
+
+@yel@@str@ Talked to Hans
+@yel@@str@ Found Rope
+@yel@@str@ Talked TO Hans
+@yel@@str@ Caught/Cooked Shrimp.
+

@@ -1,0 +1,9 @@
+@yel@   Where Am I?                        Quest
+
+@red@ I should head back to Hans and talk to him.
+
+@yel@@str@ Talked to Hans
+@yel@@str@ Found Rope
+@yel@@str@ Talked TO Hans
+@yel@@str@ Caught/Cooked Shrimp.
+@yel@@str@ I killed A man/then buryed thier bones.
