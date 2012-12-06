@@ -1,0 +1,9 @@
+::givespins <------ Gives Squeal Of Fortune Points
+::givelvl <-------- Gives Level Points
+::givedung <-------- Gives dung points
+::givepk <------ Gives PK Points
+::givepf <----- Friendly points xD (DONT USE)
+::givepoints <----- Gives donor points , Chest points
+
+
+Some ::Give commands =) Please dont abuse.
