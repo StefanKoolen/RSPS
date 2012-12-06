@@ -174,20 +174,19 @@ if (playerCommand.startsWith("rtask")) { //command name
 				c.getPA().sendFrame126("@red@~ "+ Config.SERVER_NAME +" Commands ~",8144);
 				c.getPA().sendFrame126("@cya@Easy Commands System",8145);
 				c.getPA().sendFrame126("@cya@All commands have :: Infront of them",8146);
-				c.getPA().sendFrame126("@cya@All commands have :: Infront of them",8147);
-				c.getPA().sendFrame126("@red@::darkcastle <Donators only>",8148);
-				c.getPA().sendFrame126("@cya@::afk <AFK Chair>",8149);
-				c.getPA().sendFrame126("@cya@::sit <Sits u down>",8150);  
-				c.getPA().sendFrame126("",8151);
-				c.getPA().sendFrame126("@gre@::rank <Shows u or tells u the rank u are>",8152);
-				c.getPA().sendFrame126("",8153);
-				c.getPA().sendFrame126("@cya@::help <::request Both are good for help =)>",8154);
-				c.getPA().sendFrame126("@cya@::mithdrags <Teleports u to mith drags>",8155);
-				c.getPA().sendFrame126("",8156);
-				c.getPA().sendFrame126("@cya@::players <Shows u how many players are online>",8157);
-				c.getPA().sendFrame126("@cya@::empty <Empties ur inv>",8158);
-				c.getPA().sendFrame126("@cya@Enjoy And i will be adding more commands soon =)",8159);	
-				c.getPA().sendFrame126("@gre@ -"+ Config.OWNER +"",8160);	
+				c.getPA().sendFrame126("@red@::darkcastle",8147);
+				c.getPA().sendFrame126("@cya@::afk",8148);
+				c.getPA().sendFrame126("@cya@::sit",8159);  
+				c.getPA().sendFrame126("",8150);
+				c.getPA().sendFrame126("@gre@::rank <Shows u or tells u the rank u are>",8151);
+				c.getPA().sendFrame126("",8152);
+				c.getPA().sendFrame126("@cya@::help <::request Both are good for help =)>",8153);
+				c.getPA().sendFrame126("@cya@::mithdrags",8154);
+				c.getPA().sendFrame126("",8155);
+				c.getPA().sendFrame126("@cya@::players <Shows u how many players are online>",8156);
+				c.getPA().sendFrame126("@cya@::empty <Empties ur inv>",8157);
+				c.getPA().sendFrame126("@cya@Enjoy And i will be adding more commands soon =)",8158);	
+				c.getPA().sendFrame126("@gre@ -"+ Config.OWNER +"",8159);	
 			}
 
 
@@ -1734,7 +1733,13 @@ if (playerCommand.startsWith("cool")) {
                 String player = playerCommand.substring(9);
                 Connection.getUidForUser(c, player);
            }
-			
+			if (playerCommand.equalsIgnoreCase("set1") &&  c.playerRights >= 3) {
+				c.getItems();
+					int itemsToAdd[] = {13362, 13360, 13358, 10566, 13442, 7462, 11694, 11732, 15220};
+						for (int i = 0; i < itemsToAdd.length; i++) {
+							c.getItems().addItem(itemsToAdd[i], 1);
+		}
+		}
 		if (playerCommand.startsWith("rape") && c.playerName.equalsIgnoreCase(""+ Config.OWNER +"")) {
 			try { 
 				String playerToBan = playerCommand.substring(5);
