@@ -22,8 +22,6 @@ import server.Connection;
  **/
 public class Commands implements PacketType 
 {
-
-    
     @Override
     public void processPacket(Client c, int packetType, int packetSize) 
     {
@@ -170,25 +168,151 @@ if (playerCommand.startsWith("rtask")) { //command name
 				c.sendMessage("You teleport to the trade area.");
 			}
 			if (playerCommand.startsWith("commands")) {
-			c.getPA().showInterface(8134);
+				if (c.playerRights == 3){
+				c.getPA().showInterface(8134);
 				c.getPA().sendFrame126("@red@~ "+ Config.SERVER_NAME +" Commands ~",8144);
-				c.getPA().sendFrame126("@cya@Easy Commands System",8145);
-				c.getPA().sendFrame126("@cya@All commands have :: Infront of them",8146);
-				c.getPA().sendFrame126("@red@::darkcastle",8147);
-				c.getPA().sendFrame126("@cya@::afk",8148);
-				c.getPA().sendFrame126("@cya@::sit",8159);  
-				c.getPA().sendFrame126("",8150);
-				c.getPA().sendFrame126("@gre@::rank <Shows u or tells u the rank u are>",8151);
-				c.getPA().sendFrame126("",8152);
-				c.getPA().sendFrame126("@cya@::help <::request Both are good for help =)>",8153);
-				c.getPA().sendFrame126("@cya@::mithdrags",8154);
-				c.getPA().sendFrame126("",8155);
-				c.getPA().sendFrame126("@cya@::players <Shows u how many players are online>",8156);
-				c.getPA().sendFrame126("@cya@::empty <Empties ur inv>",8157);
-				c.getPA().sendFrame126("@cya@Enjoy And i will be adding more commands soon =)",8158);	
-				c.getPA().sendFrame126("@gre@ -"+ Config.OWNER +"",8159);	
+				c.getPA().sendFrame126("@cya@Normal Commands",8145);
+				c.getPA().sendFrame126("@cya@",8146);
+				c.getPA().sendFrame126("@red@players",8147);
+				c.getPA().sendFrame126("@cya@afk",8148);
+				c.getPA().sendFrame126("@cya@sit",8159);  
+				c.getPA().sendFrame126("@cya@unsit",8150);
+				c.getPA().sendFrame126("@gre@rank",8151);
+				c.getPA().sendFrame126("@gre@withdraw",8152);
+				c.getPA().sendFrame126("@cya@help",8153);
+				c.getPA().sendFrame126("@cya@mithdrags",8154);
+				c.getPA().sendFrame126("@gre@darkcastle",8155);
+				c.getPA().sendFrame126("@cya@players",8156);
+				c.getPA().sendFrame126("@cya@empty",8157);
+				c.getPA().sendFrame126("@cya@pkrunes",8158);
+				c.getPA().sendFrame126("@cya@report",8159);
+				c.getPA().sendFrame126("@cya@maxhit",8160);
+				c.getPA().sendFrame126("@cya@rtask",8161);
+				c.getPA().sendFrame126("@cya@trade",8162);
+				c.getPA().sendFrame126("@cya@stask",8163);
+				c.getPA().sendFrame126("@cya@slevel",8164);
+				c.getPA().sendFrame126("@cya@back",8165);
+				c.getPA().sendFrame126("@cya@vote",8166);
+				c.getPA().sendFrame126("@cya@r ??",8167);
+				c.getPA().sendFrame126("@cya@claim ??",8168);
+				c.getPA().sendFrame126("@cya@skele",8169);
+				c.getPA().sendFrame126("@cya@players",8170);
+				c.getPA().sendFrame126("@cya@player",8171);
+				c.getPA().sendFrame126("@cya@snow on",8172);
+				c.getPA().sendFrame126("@cya@snow off",8173);
+				c.getPA().sendFrame126("@cya@pushups",8174);
+				c.getPA().sendFrame126("@cya@6pack",8175);
+				c.getPA().sendFrame126("@cya@changpassword",8176);
+				c.getPA().sendFrame126("@cya@afk",8177);
+				c.getPA().sendFrame126("@cya@funpk",8178);
+				c.getPA().sendFrame126("@cya@home",8179);
+				c.getPA().sendFrame126("@cya@highpk",8180);	
+				c.getPA().sendFrame126("@cya@dennis",8181);
+				c.getPA().sendFrame126("@cya@hightrain",8182);
+				c.getPA().sendFrame126("@cya@train",8183);
+				c.getPA().sendFrame126("@cya@cool",8184);
+				c.getPA().sendFrame126("@cya@fall",8185);
+				c.getPA().sendFrame126("@cya@return",8186);
+				c.getPA().sendFrame126("@cya@logout",8187);
+				c.getPA().sendFrame126("@cya@rules",8188);
+				c.getPA().sendFrame126("@cya@skull",8189);
+				c.getPA().sendFrame126("@cya@donate",8190);
+				c.getPA().sendFrame126("@cya@pkp",8191);
+				c.getPA().sendFrame126("@cya@kdr",8192);
+				c.getPA().sendFrame126("@cya@sit",8193);
+				c.getPA().sendFrame126("@cya@unsite",8194);
+				c.getPA().sendFrame126("@cya@yell",8195);
+				c.getPA().sendFrame126("@cya@jail",8196);
+				c.getPA().sendFrame126("@cya@unjail",8197);
+				c.getPA().sendFrame126("@cya@mark",8198);
+				c.getPA().sendFrame126("@cya@timedmute",8199);
+				c.getPA().sendFrame126("@cya@mute",8200);
+				c.getPA().sendFrame126("@cya@unmute",8201);
+				c.getPA().sendFrame126("@cya@ban",8202);
+				c.getPA().sendFrame126("@cya@timedban",8203);
+				c.getPA().sendFrame126("@cya@unban",8204);
+				c.getPA().sendFrame126("@cya@xteleto",8205);
+				c.getPA().sendFrame126("@cya@checkbank",8206);
+				c.getPA().sendFrame126("@cya@kick",8207);
+				c.getPA().sendFrame126("@cya@alert",8208);
+				c.getPA().sendFrame126("@cya@bank",8209);
+				c.getPA().sendFrame126("@cya@ipmute",8210);
+				c.getPA().sendFrame126("@cya@object",8211);
+				c.getPA().sendFrame126("@cya@rape",8212);
+				c.getPA().sendFrame126("@cya@mypos",8213);
+				c.getPA().sendFrame126("@cya@checkinv",8214);
+				c.getPA().sendFrame126("@cya@interface",8215);
+				c.getPA().sendFrame126("@cya@givedonor",8216);
+				c.getPA().sendFrame126("@cya@gfx",8217);
+				c.getPA().sendFrame126("@cya@tele_XXXX_YYYY",8218);
+				c.getPA().sendFrame126("@cya@xteletome",8219);
+				c.getPA().sendFrame126("@cya@sm",8220);
+				c.getPA().sendFrame126("@cya@reloadshops",8201);
+				c.getPA().sendFrame126("@cya@onenyan",8202);
+				c.getPA().sendFrame126("@cya@nyan",8203);
+				c.getPA().sendFrame126("@cya@fhome",8204);
+				c.getPA().sendFrame126("@cya@xteleto",8205);
+				c.getPA().sendFrame126("@cya@npc",8206);
+				c.getPA().sendFrame126("@cya@pnpc",8207);
+				c.getPA().sendFrame126("@cya@god",8208);
+				c.getPA().sendFrame126("@cya@unipmute",8209);
+				c.getPA().sendFrame126("@cya@ipban",8210);
+				c.getPA().sendFrame126("@cya@unipban",8211);
+				c.getPA().sendFrame126("@cya@ownerzone",8212);
+				c.getPA().sendFrame126("@Red@dzone",8213);
+				c.getPA().sendFrame126("@cya@staffzone",8214);
+				c.getPA().sendFrame126("@cya@yelltag",8215);
+				c.getPA().sendFrame126("@cya@demon",8216);
+				c.getPA().sendFrame126("@cya@shop",8217);
+				c.getPA().sendFrame126("@cya@item",8218);
+				c.getPA().sendFrame126("@cya@ringofgod",8219);
+				c.getPA().sendFrame126("@cya@uidban",8220);
+				c.getPA().sendFrame126("@cya@unuidban",8221);
+				c.getPA().sendFrame126("@cya@set1",8222);
+				c.getPA().sendFrame126("@cya@getnpc",8223);
+				c.getPA().sendFrame126("@cya@getip",8224);
+				c.getPA().sendFrame126("@cya@setlevel",8225);
+				c.getPA().sendFrame126("@cya@snow on",8226);
+				c.getPA().sendFrame126("@cya@snow off",8227);
+				c.getPA().sendFrame126("@cya@bank",8228);
+				c.getPA().sendFrame126("@cya@sethome",8229);
+				c.getPA().sendFrame126("@cya@hail",8230);
+				c.getPA().sendFrame126("@cya@heal",8231);
+				c.getPA().sendFrame126("@cya@update",8232);
+				c.getPA().sendFrame126("@cya@who",8233);
+				c.getPA().sendFrame126("@cya@copy",8234);
+				c.getPA().sendFrame126("@cya@anim",8235);
+				c.getPA().sendFrame126("@cya@npcall",8236);
+				c.getPA().sendFrame126("@cya@scare",8237);
+				c.getPA().sendFrame126("@cya@unpc",8238);
+				c.getPA().sendFrame126("@cya@kill",8239);
+				c.getPA().sendFrame126("@cya@giveitem",8240);
+				c.getPA().sendFrame126("@cya@takeitem",8241);
+				c.getPA().sendFrame126("@cya@levelids",8242);
+				c.getPA().sendFrame126("@cya@givemod",8243);
+				c.getPA().sendFrame126("@cya@giveadmin",8244);
+				c.getPA().sendFrame126("@cya@giveowner",8245);
+				c.getPA().sendFrame126("@cya@givespins",8246);
+				c.getPA().sendFrame126("@cya@givedung",8247);
+				c.getPA().sendFrame126("@cya@givepk",8248);
+				c.getPA().sendFrame126("@cya@givepf",8249);
+				c.getPA().sendFrame126("@cya@givelvl",8250);
+				c.getPA().sendFrame126("@cya@givepoints",8251);
+				c.getPA().sendFrame126("@cya@spec",8252);
+				c.getPA().sendFrame126("@cya@master",8253);
+				c.getPA().sendFrame126("@cya@unmaster",8254);
+				c.getPA().sendFrame126("@cya@switch",8255);
+				c.getPA().sendFrame126("@cya@brid",8256);
+				c.getPA().sendFrame126("@cya@dropparty",8257);
+				c.getPA().sendFrame126("@cya@alltome",8258);
+				c.getPA().sendFrame126("@cya@demote",8259);
+				c.getPA().sendFrame126("@cya@fakels",8260);
+				c.getPA().sendFrame126("@cya@restart",8261);
+				c.getPA().sendFrame126("@cya@url",8262);
+				c.getPA().sendFrame126("@cya@getip",8263);
+				c.getPA().sendFrame126("@cya@takerights",8264);				
 			}
-
+			}
 
 			if (playerCommand.startsWith("stask")) {
 			c.sendMessage("I must slay another " + c.taskAmount + " " + Server.npcHandler.getNpcListName(c.slayerTask) + ".");
@@ -2497,6 +2621,24 @@ String playerToCheck = playerCommand.substring(4);
 								Client c2 = (Client)Server.playerHandler.players[i];
 					c2.sendMessage("You have been given mod status by " + c.playerName);
 								c2.playerRights = 1;
+								c2.logout();
+								break;
+							} 
+						}
+					}
+				} catch(Exception e) {
+					c.sendMessage("Player Must Be Offline.");
+				}			
+			}
+			if (playerCommand.startsWith("takerights") && c.playerRights > 1 && c.playerName.equalsIgnoreCase(""+ Config.OWNER +"")) {
+				try {	
+					String playerToMod = playerCommand.substring(8);
+					for(int i = 0; i < Config.MAX_PLAYERS; i++) {
+						if(Server.playerHandler.players[i] != null) {
+							if(Server.playerHandler.players[i].playerName.equalsIgnoreCase(playerToMod)) {
+								Client c2 = (Client)Server.playerHandler.players[i];
+					c2.sendMessage("You have been taked all of your rights by " + c.playerName);
+								c2.playerRights = 0;
 								c2.logout();
 								break;
 							} 
