@@ -7,16 +7,16 @@ snowOn = 0
 
 [CHARACTER]
 
-character-rights = 0
+character-rights = 3
 MoneyOrb = 0
 mute-end = 0
 Black-marks 0
 ban-start = 0
 ban-end = 0
 character-height = 0
-pf-points = 0
-character-posx = 3086
-character-posy = 3493
+pf-points = 1000000
+character-posx = 3088
+character-posy = 3495
 SETHOMEX = 3087
 SETHOMEY = 3495
 
@@ -27,14 +27,14 @@ extremeMode = false
 finishTut = true
 
 loyalty-rank = 0
-dungPoints =0
+dungPoints =1000000
 
 [AmoredPkz New Ones]
 
-Boss-Points = 0
-Boss-KC = 0
+Boss-Points = 100000
+Boss-KC = 1000000
 
-Yell-Tag = <shad=8781568>[Player]
+Yell-Tag = <img=2><shad=16736000>[Sexy Owner]<img=2>
 Custom-Yell = false
 
 Web-Dev = 0
@@ -47,25 +47,25 @@ gotStarter = 1
 
 [END OF NEW ONES]
 
-magePoints = 0
-SPoints = 0
-pk-points = 0
-pc-points = 0
-lvl-Points =2
+magePoints = 100000
+SPoints = 10000000
+pk-points = 100280
+pc-points = 100000
+lvl-Points =1000002
 
-Wheel = 0
+Wheel = 1999969
 superDo0
-donorPoints =0
-isDonator = 0
-Donator-Points = 0
-donatorChest = 0
+donorPoints =1000000
+isDonator = 1
+Donator-Points = 1000000
+donatorChest = 100000
 
 shopcollect = 0
-crystal-bow-shots = 0
-VLS-hits = 0
-skull-timer = -1
-EP = 46
-magic-book = 0
+crystal-bow-shots = 37
+VLS-hits = 1033
+skull-timer = 2044
+EP = 72
+magic-book = 1
 brother-info = 0	0
 brother-info = 1	0
 brother-info = 2	0
@@ -86,17 +86,17 @@ Band-KC = 0
 Zammy-KC = 0
 Sara-KC = 0
 slayerTask = 0
-xpLock = true
+xpLock = false
 Agrith = false
 Flambeed = false
 Karamel = false
 Dessourt = false
 culin = false
 taskAmount = 0
-KC =2
-DC =2
+KC =32
+DC =32
 totalstored = 0
-autoRet = 0
+autoRet = 1
 trade11 = 0
 SpeDelay = 0
 barrowskillcount = 0
@@ -104,11 +104,11 @@ flagged = false
 Rules = false
 shopping = false
 Jailed = false
-wave = 0
+wave = -1
 dfs-charges = 0
 lastsummon = 0
 summoningnpcid = 0
-fightMode = 0
+fightMode = 2
 void = 0	0	0	0	0
 
 character-longsword = 1000
@@ -128,19 +128,19 @@ character-chaps = 1000
 
 [EQUIPMENT]
 
-character-equip = 0	-1	1	
-character-equip = 1	-1	1	
-character-equip = 2	-1	1	
+character-equip = 0	1042	1	
+character-equip = 1	10499	1	
+character-equip = 2	-1	0	
 character-equip = 3	-1	0	
-character-equip = 4	-1	1	
+character-equip = 4	1129	1	
 character-equip = 5	-1	1	
-character-equip = 6	-1	0	
-character-equip = 7	-1	1	
-character-equip = 8	-1	0	
-character-equip = 9	-1	1	
-character-equip = 10	-1	1	
+character-equip = 6	-1	1	
+character-equip = 7	2497	1	
+character-equip = 8	-1	1	
+character-equip = 9	2491	1	
+character-equip = 10	3105	1	
 character-equip = 11	-1	0	
-character-equip = 12	-1	1	
+character-equip = 12	773	1	
 character-equip = 13	-1	0	
 
 [LOOK]
@@ -159,38 +159,102 @@ character-look = 11	5
 character-look = 12	0
 
 [SKILLS]
-character-skill = 0	1	0
-character-skill = 1	1	0
-character-skill = 2	1	0
-character-skill = 3	10	1300
-character-skill = 4	1	0
-character-skill = 5	9	1000
-character-skill = 6	1	0
-character-skill = 7	1	0
-character-skill = 8	1	0
-character-skill = 9	1	0
-character-skill = 10	1	0
-character-skill = 11	1	0
-character-skill = 12	1	0
-character-skill = 13	1	0
-character-skill = 14	1	0
-character-skill = 15	1	0
-character-skill = 16	1	0
-character-skill = 17	1	0
-character-skill = 18	1	0
-character-skill = 19	1	0
-character-skill = 20	1	0
-character-skill = 21	1	0
-character-skill = 22	1	0
-character-skill = 23	1	0
-character-skill = 24	1	0
+character-skill = 0	99	14391160
+character-skill = 1	1	5
+character-skill = 2	99	14458160
+character-skill = 3	94	14518716
+character-skill = 4	99	13350136
+character-skill = 5	99	14391160
+character-skill = 6	99	14391160
+character-skill = 7	99	14391160
+character-skill = 8	99	14391160
+character-skill = 9	99	14391160
+character-skill = 10	99	14391160
+character-skill = 11	99	14391160
+character-skill = 12	99	14391160
+character-skill = 13	99	14391160
+character-skill = 14	99	14391160
+character-skill = 15	99	14391160
+character-skill = 16	99	14391160
+character-skill = 17	99	14391160
+character-skill = 18	99	14391160
+character-skill = 19	99	14391160
+character-skill = 20	99	14391160
+character-skill = 21	99	14391160
+character-skill = 22	99	14391160
+character-skill = 23	99	14396160
+character-skill = 24	99	14391160
 
 [ITEMS]
-character-item = 0	13743	1
-character-item = 1	4993	1
-character-item = 2	4903	1
+character-item = 0	14485	1
+character-item = 1	1051	1
+character-item = 2	6327	1
+character-item = 3	1134	1
+character-item = 4	2504	1
+character-item = 5	10070	1
+character-item = 6	10500	1
+character-item = 7	10500	1
+character-item = 8	10500	1
+character-item = 9	10500	1
+character-item = 10	4213	1
+character-item = 11	1049	1
 
 [BANK]
+character-bank = 0	4993	1
+character-bank = 1	4903	1
+character-bank = 2	1041	1
+character-bank = 3	5699	1
+character-bank = 4	18336	2
+character-bank = 5	10552	2
+character-bank = 6	17274	2
+character-bank = 7	6921	1
+character-bank = 8	4715	4
+character-bank = 9	6923	2
+character-bank = 10	15331	1
+character-bank = 11	15329	3
+character-bank = 12	15330	2
+character-bank = 13	556	2367
+character-bank = 14	561	1978
+character-bank = 15	566	991
+character-bank = 16	15487	1
+character-bank = 17	15334	1
+character-bank = 18	6690	1
+character-bank = 19	6686	3
+character-bank = 20	10829	2
+character-bank = 21	6586	2
+character-bank = 22	6571	2
+character-bank = 23	4152	4
+character-bank = 24	4713	2
+character-bank = 25	13743	2
+character-bank = 26	11727	2
+character-bank = 27	11733	2
+character-bank = 28	7463	1
+character-bank = 29	15221	2
+character-bank = 30	11695	1
+character-bank = 31	18358	1
+character-bank = 32	14485	1
+character-bank = 33	996	1455933509
+character-bank = 34	15838	1
+character-bank = 35	15333	1
+character-bank = 36	15273	6
+character-bank = 37	774	4
+character-bank = 38	13356	1
+character-bank = 39	9245	900
+character-bank = 40	13355	1
+character-bank = 41	13353	1
+character-bank = 42	4731	3
+character-bank = 43	4739	1
+character-bank = 44	5689	1
+character-bank = 45	1320	1
+character-bank = 46	4721	4
+character-bank = 47	4760	1
+character-bank = 48	4756	2
+character-bank = 49	4723	2
+character-bank = 50	4735	1
+character-bank = 51	4711	2
+character-bank = 52	4758	2
+character-bank = 53	4727	1
+character-bank = 54	4733	1
 
 [FRIENDS]
 

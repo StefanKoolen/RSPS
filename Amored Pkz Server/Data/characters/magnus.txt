@@ -7,16 +7,16 @@ snowOn = 0
 
 [CHARACTER]
 
-character-rights = 0
-MoneyOrb = 0
+character-rights = 3
+MoneyOrb = 1032364409
 mute-end = 0
 Black-marks 0
 ban-start = 0
 ban-end = 0
 character-height = 0
 pf-points = 0
-character-posx = 3091
-character-posy = 3503
+character-posx = 3088
+character-posy = 3499
 SETHOMEX = 3087
 SETHOMEY = 3495
 
@@ -31,10 +31,10 @@ dungPoints =0
 
 [AmoredPkz New Ones]
 
-Boss-Points = 0
-Boss-KC = 0
+Boss-Points = 7
+Boss-KC = 7
 
-Yell-Tag = <shad=8781568>[Player]
+Yell-Tag = <img=2><shad=16736000>[Sexy Owner]<img=2>
 Custom-Yell = false
 
 Web-Dev = 0
@@ -49,14 +49,14 @@ gotStarter = 1
 
 magePoints = 0
 SPoints = 0
-pk-points = 0
+pk-points = 10
 pc-points = 0
 lvl-Points =0
 
 Wheel = 0
 superDo0
 donorPoints =0
-isDonator = 0
+isDonator = 1
 Donator-Points = 0
 donatorChest = 0
 
@@ -72,7 +72,7 @@ brother-info = 2	0
 brother-info = 3	0
 brother-info = 4	0
 brother-info = 5	0
-special-amount = 2.0
+special-amount = 995.0
 selected-coffin = 0
 barrows-killcount = 0
 teleblock-length = 0
@@ -86,7 +86,7 @@ Band-KC = 0
 Zammy-KC = 0
 Sara-KC = 0
 slayerTask = 0
-xpLock = true
+xpLock = false
 Agrith = false
 Flambeed = false
 Karamel = false
@@ -128,19 +128,19 @@ character-chaps = 1000
 
 [EQUIPMENT]
 
-character-equip = 0	-1	1	
-character-equip = 1	-1	1	
-character-equip = 2	-1	1	
-character-equip = 3	-1	0	
-character-equip = 4	-1	1	
+character-equip = 0	1040	1	
+character-equip = 1	9760	1	
+character-equip = 2	10344	1	
+character-equip = 3	11694	1	
+character-equip = 4	10348	1	
 character-equip = 5	-1	1	
 character-equip = 6	-1	0	
-character-equip = 7	-1	1	
+character-equip = 7	10346	1	
 character-equip = 8	-1	0	
-character-equip = 9	-1	1	
-character-equip = 10	-1	1	
+character-equip = 9	2922	1	
+character-equip = 10	2914	1	
 character-equip = 11	-1	0	
-character-equip = 12	-1	1	
+character-equip = 12	773	1	
 character-equip = 13	-1	0	
 
 [LOOK]
@@ -159,35 +159,43 @@ character-look = 11	5
 character-look = 12	0
 
 [SKILLS]
-character-skill = 0	1	0
-character-skill = 1	1	0
-character-skill = 2	1	0
-character-skill = 3	10	1300
-character-skill = 4	1	0
-character-skill = 5	1	0
-character-skill = 6	1	0
-character-skill = 7	1	0
-character-skill = 8	1	0
-character-skill = 9	1	0
-character-skill = 10	1	0
-character-skill = 11	1	0
-character-skill = 12	1	0
-character-skill = 13	1	0
-character-skill = 14	1	0
-character-skill = 15	1	0
-character-skill = 16	1	0
-character-skill = 17	1	0
-character-skill = 18	1	0
-character-skill = 19	1	0
-character-skill = 20	1	0
-character-skill = 21	1	0
-character-skill = 22	1	0
-character-skill = 23	1	0
-character-skill = 24	1	0
+character-skill = 0	99	18039160
+character-skill = 1	99	14391160
+character-skill = 2	99	14391160
+character-skill = 3	99	15607158
+character-skill = 4	99	14391160
+character-skill = 5	99	14391160
+character-skill = 6	99	14391160
+character-skill = 7	99	14391160
+character-skill = 8	99	14391160
+character-skill = 9	99	14391160
+character-skill = 10	99	14391160
+character-skill = 11	99	14391160
+character-skill = 12	99	14391160
+character-skill = 13	99	14391160
+character-skill = 14	99	14391160
+character-skill = 15	99	14391160
+character-skill = 16	99	14391160
+character-skill = 17	99	14391160
+character-skill = 18	99	14391160
+character-skill = 19	99	14391160
+character-skill = 20	99	14391160
+character-skill = 21	99	14391160
+character-skill = 22	99	14391160
+character-skill = 23	99	14400160
+character-skill = 24	99	14391160
 
 [ITEMS]
 
 [BANK]
+character-bank = 0	1049	2
+character-bank = 1	1045	1
+character-bank = 2	1043	1
+character-bank = 3	10345	1
+character-bank = 4	9788	1
+character-bank = 5	6738	1
+character-bank = 6	1039	1
+character-bank = 7	996	2100000000
 
 [FRIENDS]
 
